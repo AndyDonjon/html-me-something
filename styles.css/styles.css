@@ -1,23 +1,51 @@
-body{
-    background-color: #2E8B57;
-    width: 100%;
-    max-width:1024px;
+header{
+    padding: 1.875em 0;
+    text-align: center;
 }
 
-h1{
+body{
+    background-color: #003129;
+    width: 100%;
+    max-width:1024px;
+    margin:auto;
+    display: block;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 1em;
+    font_size: 3;
+}
+
+main{
+    display:block;
+    background-color: #7B3300;
+    border: 2px;
+    border-color: black;
+}
+
+h1,
+header{
     color: white;
     font: tahoma;
-    text-align: left;
-    font-size: 24
+    margin: auto;
+    font-size: 24;
+    font-family: fantasy;
+}
+
+h1, h2, h3{
+    margin:auto;
 }
 
 h2{
     color: white;
-    text-align: left;
+    text-align: center;
 }
 
-img.centered{
-    ;
+img{
+    display: block;
+    margin: auto;
+
 }
 
 footer{
