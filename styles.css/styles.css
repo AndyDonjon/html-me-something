@@ -20,7 +20,8 @@ nav ul li{
 main{
     display:block;
     background-color: #7B3300;
-    border: 2px;
+    border-left: 1px;
+    border-right: 1px;
     border-color: black;
 }
 
